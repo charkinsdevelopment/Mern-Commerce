@@ -79,7 +79,7 @@ img {
 }
 img.medium {
   max-width: 29rem;
-  widths: 100%;
+  width: 100%;
 }
 
 .card {
@@ -101,4 +101,9 @@ img.medium {
 .card-body .rating span {
   color: #f0c040;
   margin: 0.1rem;
+}
+.card-body span:last-child {
+  color: #404040;
+  font-size: 14px;
+  margin-left: 5px;
 }
