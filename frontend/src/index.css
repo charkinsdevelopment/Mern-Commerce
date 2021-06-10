@@ -154,3 +154,44 @@ img.large {
 .error {
   color: #a02020;
 }
+.alert {
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0;
+}
+
+.loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #203040;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spinnit 0.5s linear infinite;
+}
+
+@keyframes spinnit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-box {
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
